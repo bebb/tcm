@@ -1,16 +1,16 @@
-# TechCrunchMunch*
+== TechCrunchMunch*
 *(at the cusp of completion)
 
 ... is an ngram for TechCrunch. An ngram is a chart
 displaying word usage over time for a queried word.
-[Google Books Example](https://books.google.com/ngrams)
+(Google Books Example - https://books.google.com/ngrams)
   
-### Approaching Completion
+=== Approaching Completion
 * Custom visuals
 * Highcharts populated with search results
 * Controller/model search method completed
 
-### Completed
+=== Completed
 * Article/link scraper rake task (Mechanize)
 * Text scraper rake task(Mechanize)
 * Headline scraper rake task
