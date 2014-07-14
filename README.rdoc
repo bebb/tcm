@@ -1,28 +1,21 @@
-== README
+# TechCrunchMunch*
+*(at the cusp of completion)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+... is an ngram for TechCrunch. An ngram is a chart
+displaying word usage over time for a queried word.
+[Google Books Example](https://books.google.com/ngrams)
+  
+### Approaching Completion
+* Custom visuals
+* Highcharts populated with search results
+* Controller/model search method completed
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+### Completed
+* Article/link scraper rake task (Mechanize)
+* Text scraper rake task(Mechanize)
+* Headline scraper rake task
+* Word and phrase splitting functions
+* Punctuation functions/brand testing
+* Word frequency counter
+* AWS Elastic Beanstalk setup w/domain
+* Highcharts incorporated
